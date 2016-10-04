@@ -1,0 +1,40 @@
+@charset "utf-8";
+#bgq {
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #FFFFFF;
+    opacity: 1;
+    color: #000000;
+    text-align: center;
+}
+#texto {
+    color: #000000;
+    opacity: 1;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#texto2 {
+    color: #000000;
+    opacity: 1;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.pop {
+    margin-left: 40px;
+}
+.quoter {
+    border: thin dashed #000000;
+}
+#yo {
+    margin-left: 40px;
+}
+#foot {
+    text-align: center;
+    font-family: consolas;
+}
+#birdie {
+    background-color: #0bacd3;
+    border-bottom: 2px solid #098aa9;
+}
+#quoteIt {
+    background-color: #1c41a2;
+    border-bottom: 2px solid #0c1a3d;
+}
