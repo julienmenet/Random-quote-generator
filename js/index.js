@@ -1,4 +1,4 @@
- var rqg = new Array()
+var rqg = new Array()
  rqg[0] = '<blockquote><h2>There are two ways to be rich: One is by acquiring much, and the other is by desiring little<br /><footer> Jackie French Koller</footer></h2></blockquote>'
   rqg[1] = '<blockquote><h2>The simplest things are often the truest<br /><footer> Richard Bach</footer></h2></blockquote>'
   rqg[2] = '<blockquote><h2>Smile, breathe and go slowly.<br /><footer> Thich Nhat Hanh</footer></h2></blockquote>'
@@ -14,14 +14,16 @@
   }
 
   function tweet(message) {
-  window.open('https://twitter.com/intent/tweet?hashtags= julienme.net&text= '   + encodeURIComponent(message));
+  window.open('https://twitter.com/intent/tweet?hashtags=julienme.net&text= '   + encodeURIComponent(message));
   }
 
   $('#birdie').on('click', bird);
   $(document).ready(function() {
   $("#quoteIt").on("click", function()   {
-    var randomquote =     Math.floor(Math.random()*(rqg.length));
-    msg = rqg[randomquote];
+    var randomquote=Math.floor(Math.random()*(rqg.length));
+    msg=rqg[randomquote];
     $(".message").html(msg);
     });
     });
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
